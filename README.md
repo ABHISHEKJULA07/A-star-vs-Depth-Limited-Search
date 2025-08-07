@@ -59,12 +59,14 @@ This repository presents a comprehensive comparison of two popular search algori
 
 ---
 
-## 📌 Developed By
+## 👨‍💻 Developed By
 
-**Abhishek Jula**
+**Abhishek Jula** 
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/abhi-jula0711)  
-- 💻 [GitHub](https://github.com/ABHISHEKJULA07)  
-- 🌐 [Portfolio](https://abhipinku66.wixsite.com/07112000)  
-- 📧 abhishekjula018@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/abhi-jula0711)  
+💻 [GitHub](https://github.com/ABHISHEKJULA07)  
+🌐 [Portfolio](https://abhipinku66.wixsite.com/07112000)  
+📧 abhishekjula018@gmail.com
+
+
 
