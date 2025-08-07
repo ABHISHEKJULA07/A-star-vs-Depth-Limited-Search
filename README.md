@@ -45,5 +45,27 @@ This repository presents a comprehensive comparison of two popular search algori
    ```bash
    git clone https://github.com/ABHISHEKJULA07/A-star-vs-Depth-Limited-Search
    cd A-star-vs-Depth-Limited-Search
-````
+
+
+2. Run the script
+
+   ``bash
+   python main.py
+  
+
+3. Observe printed paths and comparison results (e.g., time, space, depth).
+
+---
+
+📌 Developed by [Abhishek Jula](https://www.linkedin.com/in/abhi-jula0711)
+
+```
+
+---
+
+✅ Let me know if you want **badges**, **animated demos**, or **license formatting**.
+```
+
+
+
 
