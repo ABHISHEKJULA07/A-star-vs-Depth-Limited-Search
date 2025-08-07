@@ -60,6 +60,14 @@ This repository presents a comprehensive comparison of two popular search algori
 📌 Developed by [Abhishek Jula](https://www.linkedin.com/in/abhi-jula0711)
 
 ```
+LINKEDIN : https://www.linkedin.com/in/abhi-jula0711
+GITHUB : https://github.com/ABHISHEKJULA07
+PORTFOLIO :abhipinku66.wixsite.com/07112000
+MAIL : abhishekjula018@gmail.com
+
+
+
+
 
 
 
