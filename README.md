@@ -1,35 +1,31 @@
-# 🔍 Performance Comparison: A* vs Depth-Limited Search
+A* vs. Depth-Limited Search: A Pathfinding Algorithm Comparison 🤖
+This repository contains a comprehensive project comparing the performance of two fundamental search algorithms in Artificial Intelligence: A* Search and Depth-Limited Search (DLS). The project evaluates their efficiency, optimality, and memory usage in various pathfinding scenarios. 🚀
 
-A focused comparative study of two classic search algorithms — **A\*** and **Depth-Limited Search (DLS)** — evaluating their efficiency, optimality, memory usage, and practical trade-offs in pathfinding scenarios.
+Key Features 🎯
+Implementation of A* Search: A powerful informed search algorithm that uses a heuristic function to efficiently find the optimal path. 🗺️
 
-This project includes modular Python implementations of both algorithms, with flexible input formats (mazes and graph structures), customizable parameters (like depth limits), and visual performance metrics such as steps taken, cost returned, execution time, and memory usage. It is ideal for students, researchers, and enthusiasts exploring search strategies in AI or graph theory.
+Implementation of Depth-Limited Search (DLS): A variation of Depth-First Search that prevents infinite loops in graphs with cycles by imposing a maximum search depth. 💡
 
-## 🧠 Algorithms
-- **A\*** uses the heuristic-driven formula `f(n) = g(n) + h(n)`, ensuring optimal paths when the heuristic is admissible.
-- **Depth-Limited Search (DLS)** performs a depth-first traversal up to a specified depth, ideal for large or infinite search spaces with low memory requirements.
+Comparative Analysis: The project provides a clear, side-by-side comparison of the algorithms based on:
 
-## 📊 Features
-- Clean CLI-based usage and modular code
-- Accepts mazes and graph input formats
-- Tracks pathfinding stats: steps, time, memory, path cost
-- Includes sample results and visualizations
-- Easily extendable to add BFS, DFS, IDA*, etc.
+Time Complexity: How long each algorithm takes to find a solution.
 
-## ⚙️ Tech Stack
-| Tool           | Purpose                          |
-|----------------|----------------------------------|
-| **Python**     | Core logic and experimentation   |
-| **NumPy**      | Data processing (optional)       |
-| **Matplotlib** | Performance visualization        |
-| **psutil**     | Memory tracking (optional)       |
+Space Complexity: The memory required to store the search space.
 
-## 📦 Usage
-```bash
-git clone https://github.com/ABHISHEKJULA07/A-star-vs-Depth-Limited-Search
-cd A-star-vs-Depth-Limited-Search
+Optimality: Whether the algorithms guarantee finding the shortest path.
 
-# Run A*
-python main.py --algorithm astar --input maps/maze1.txt
+Demonstration Scenarios: The algorithms are applied to solve a pathfinding problem in a grid environment with obstacles to showcase their strengths and weaknesses.
 
-# Run DLS with depth limit
-python main.py --algorithm dls --limit 10 --input maps/maze1.txt
+Technologies Used 💻
+Python: The primary programming language used for implementing the algorithms.
+
+Data Structures: The project utilizes various data structures, such as lists and queues, to manage the search process.
+
+How to Run the Project ▶️
+Clone the repository to your local machine.
+
+Navigate to the project directory.
+
+Run the main Python script. For example: python main.py
+
+The output will display the paths found by each algorithm and a performance summary.
