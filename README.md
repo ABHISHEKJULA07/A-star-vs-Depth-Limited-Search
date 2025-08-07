@@ -1,8 +1,4 @@
-Here’s your updated **README** with clean, **box-style formatting** for both the **Tech Stack** and the **Comparison Table** of A\* and DLS.
 
----
-
-````markdown
 # 🤖 A* vs. Depth-Limited Search: A Pathfinding Algorithm Comparison
 
 This repository presents a comprehensive comparison of two popular search algorithms in Artificial Intelligence — **A\*** and **Depth-Limited Search (DLS)** — applied to grid-based pathfinding. The project evaluates their efficiency, optimality, and memory usage across different scenarios to help understand their practical trade-offs. 🚀
@@ -51,21 +47,3 @@ This repository presents a comprehensive comparison of two popular search algori
    cd A-star-vs-Depth-Limited-Search
 ````
 
-2. Run the script
-
-   ```bash
-   python main.py
-   ```
-
-3. Observe printed paths and comparison results (e.g., time, space, depth).
-
----
-
-📌 Developed by [Abhishek Jula](https://www.linkedin.com/in/abhi-jula0711)
-
-```
-
----
-
-✅ Let me know if you want **badges**, **animated demos**, or **license formatting**.
-```
