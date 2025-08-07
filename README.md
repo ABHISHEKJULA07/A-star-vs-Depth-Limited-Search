@@ -49,7 +49,7 @@ This repository presents a comprehensive comparison of two popular search algori
 
 2. Run the script
 
-   ``bash
+   ```bash
    python main.py
   
 
@@ -61,10 +61,8 @@ This repository presents a comprehensive comparison of two popular search algori
 
 ```
 
----
 
-✅ Let me know if you want **badges**, **animated demos**, or **license formatting**.
-```
+
 
 
 
