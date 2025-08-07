@@ -1,31 +1,71 @@
-A* vs. Depth-Limited Search: A Pathfinding Algorithm Comparison 🤖
-This repository contains a comprehensive project comparing the performance of two fundamental search algorithms in Artificial Intelligence: A* Search and Depth-Limited Search (DLS). The project evaluates their efficiency, optimality, and memory usage in various pathfinding scenarios. 🚀
+Here’s your updated **README** with clean, **box-style formatting** for both the **Tech Stack** and the **Comparison Table** of A\* and DLS.
 
-Key Features 🎯
-Implementation of A* Search: A powerful informed search algorithm that uses a heuristic function to efficiently find the optimal path. 🗺️
+---
 
-Implementation of Depth-Limited Search (DLS): A variation of Depth-First Search that prevents infinite loops in graphs with cycles by imposing a maximum search depth. 💡
+````markdown
+# 🤖 A* vs. Depth-Limited Search: A Pathfinding Algorithm Comparison
 
-Comparative Analysis: The project provides a clear, side-by-side comparison of the algorithms based on:
+This repository presents a comprehensive comparison of two popular search algorithms in Artificial Intelligence — **A\*** and **Depth-Limited Search (DLS)** — applied to grid-based pathfinding. The project evaluates their efficiency, optimality, and memory usage across different scenarios to help understand their practical trade-offs. 🚀
 
-Time Complexity: How long each algorithm takes to find a solution.
+## 🔍 Key Highlights
 
-Space Complexity: The memory required to store the search space.
+- **A\* Search**: An informed algorithm using heuristics (like Manhattan distance) to find the shortest path efficiently.  
+- **Depth-Limited Search (DLS)**: A depth-first search variant that avoids infinite loops using a fixed depth limit.  
+- **Side-by-Side Comparison**:
+  - ⏱️ *Time Complexity* — Measures the time taken to find paths.
+  - 🧠 *Space Complexity* — Evaluates memory consumed during the search.
+  - 🏁 *Optimality* — Checks if the shortest path is guaranteed.
+- **Visual Demo**: Simulates both algorithms solving pathfinding problems on a grid with obstacles.
 
-Optimality: Whether the algorithms guarantee finding the shortest path.
+---
 
-Demonstration Scenarios: The algorithms are applied to solve a pathfinding problem in a grid environment with obstacles to showcase their strengths and weaknesses.
+## 💻 Tech Stack
 
-Technologies Used 💻
-Python: The primary programming language used for implementing the algorithms.
+| Tool/Language | Purpose                                      |
+|---------------|----------------------------------------------|
+| Python        | Core programming language                    |
+| `heapq`       | Priority queue implementation for A\*        |
+| `matplotlib`  | Optional visualization of search paths       |
+| `memory_profiler` | Used to analyze memory usage           |
+| Built-in data structures | Lists, dictionaries, queues, etc. |
 
-Data Structures: The project utilizes various data structures, such as lists and queues, to manage the search process.
+---
 
-How to Run the Project ▶️
-Clone the repository to your local machine.
+## 📊 A* vs. DLS — Performance Comparison
 
-Navigate to the project directory.
+| Metric          | A* Search                      | Depth-Limited Search (DLS)         |
+|-----------------|--------------------------------|------------------------------------|
+| **Speed**       | Fast (uses heuristic)          | Slower (blind exploration)         |
+| **Memory Use**  | Higher (open & closed lists)   | Lower (uses stack, limited depth)  |
+| **Optimality**  | ✔ Yes (shortest path)          | ✖ Not guaranteed                   |
+| **Completeness**| ✔ Yes (if heuristic is admissible) | ✖ No (may miss solution if depth too small) |
+| **Use Case**    | Complex maps, guaranteed path  | Simple, shallow depth problems     |
 
-Run the main Python script. For example: python main.py
+---
 
-The output will display the paths found by each algorithm and a performance summary.
+## ▶️ How to Run
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/ABHISHEKJULA07/A-star-vs-Depth-Limited-Search
+   cd A-star-vs-Depth-Limited-Search
+````
+
+2. Run the script
+
+   ```bash
+   python main.py
+   ```
+
+3. Observe printed paths and comparison results (e.g., time, space, depth).
+
+---
+
+📌 Developed by [Abhishek Jula](https://www.linkedin.com/in/abhi-jula0711)
+
+```
+
+---
+
+✅ Let me know if you want **badges**, **animated demos**, or **license formatting**.
+```
