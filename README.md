@@ -1,28 +1,35 @@
-# A* vs DLS
+# 🔍 Performance Comparison: A* vs Depth-Limited Search
 
-## Description
+A focused comparative study of two classic search algorithms — **A\*** and **Depth-Limited Search (DLS)** — evaluating their efficiency, optimality, memory usage, and practical trade-offs in pathfinding scenarios.
 
-This repository was used to generate the results for the research paper [A Performance Analysis on A* vs Depth Limited Search: A Case Study](https://doi.org/10.1051/e3sconf/202339101140). It provides the following for the paper:
+This project includes modular Python implementations of both algorithms, with flexible input formats (mazes and graph structures), customizable parameters (like depth limits), and visual performance metrics such as steps taken, cost returned, execution time, and memory usage. It is ideal for students, researchers, and enthusiasts exploring search strategies in AI or graph theory.
 
-- Graphs for feeding into the algorithms: a-star-vs-dls/graphs
-- Paths found using the search algorithms: a-star-vs-dls/paths
-- Logs of path calculation: a-star-vs-dls/logs
-- Images of graphs: graphs-for-avd/pngs
+## 🧠 Algorithms
+- **A\*** uses the heuristic-driven formula `f(n) = g(n) + h(n)`, ensuring optimal paths when the heuristic is admissible.
+- **Depth-Limited Search (DLS)** performs a depth-first traversal up to a specified depth, ideal for large or infinite search spaces with low memory requirements.
 
-## Requirements
+## 📊 Features
+- Clean CLI-based usage and modular code
+- Accepts mazes and graph input formats
+- Tracks pathfinding stats: steps, time, memory, path cost
+- Includes sample results and visualizations
+- Easily extendable to add BFS, DFS, IDA*, etc.
 
-This project requires the following softwares:
+## ⚙️ Tech Stack
+| Tool           | Purpose                          |
+|----------------|----------------------------------|
+| **Python**     | Core logic and experimentation   |
+| **NumPy**      | Data processing (optional)       |
+| **Matplotlib** | Performance visualization        |
+| **psutil**     | Memory tracking (optional)       |
 
-- python:3.11
-- pip:23.2
-- graphviz:8.0
-
-## Usage
-
-In a Windows system, open terminal and go to the root of this repo. Then run the following commands:
-
+## 📦 Usage
 ```bash
-%YOUR_PYTHON_EXECUTABLE% -m venv .venv
-.venv/Scripts/activate
-python run.py
-```
+git clone https://github.com/ABHISHEKJULA07/A-star-vs-Depth-Limited-Search
+cd A-star-vs-Depth-Limited-Search
+
+# Run A*
+python main.py --algorithm astar --input maps/maze1.txt
+
+# Run DLS with depth limit
+python main.py --algorithm dls --limit 10 --input maps/maze1.txt
